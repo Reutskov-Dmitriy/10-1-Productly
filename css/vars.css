@@ -1,0 +1,34 @@
+@font-face {
+	font-family: MontserratM;
+	src: url(../assets/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+	font-family: MontserratR;
+	src: url(../assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+	font-family: MontserratB;
+	src: url(../assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+	font-family: MontserratSB;
+	src: url(../assets/fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: PoppinsB;
+	src: url(../assets/fonts/Poppins-Bold.ttf);
+}
+
+:root{
+	--font-family-r: MontserratR, sans-serif;
+	--font-family-m: MontserratM, sans-serif;
+	--font-family-sb: MontserratSB, sans-serif;
+	--font-family-b: MontserratB, sans-serif;
+	--font-family-Pb: PoppinsB, sans-serif;
+}
+
+

@@ -1,0 +1,33 @@
+.primary-button,
+.default-button {
+	border-radius: 4px;
+	font-size: 16px;
+	line-height: 24px;
+	outline: none;
+
+}
+
+.primary-button {
+	background-color: #FF9900;
+	color: #ffffff;
+		border: none;	
+}
+
+.default-button{
+	color: #2F281E;
+	background-color: #ffffff;
+	border: 1px solid #BCD0E5;
+}
+
+.primary-button:hover,
+.primary-button:focus{
+	background-color: #fae7cb ;
+	transition: all .3s ease-in;
+	color: #FF9900;
+}
+
+.default-button:hover,
+.default-button:focus{
+	border: 2px solid #79a8da;
+	color: #000000;
+}
