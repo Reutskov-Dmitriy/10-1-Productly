@@ -3,9 +3,9 @@
 
 
 .container{
-	min-width: 1440px;
+	width: 1440px;
 	height: 3709px;
-	margin: auto;
+	margin: 0 auto;
 	padding: 0px 120px;
 	border: 1px solid #BCD0E5;
 }
@@ -49,6 +49,7 @@ header{
 	margin-left: 30px;
 }
 
+/* SECTION THE DESIGN THINKING */
 .about {
 	max-width: 100%;
 	height: 495px;
@@ -61,9 +62,9 @@ header{
 	justify-content: space-between;
 }
 
-.self-center{
-align-self: center;
 
+.about__content {
+align-self: center;
 }
 
 .about__text{
@@ -88,6 +89,7 @@ width: 500px;
 	font-family: var(--font-family-Pb);
 }
 
+/* IMAGES */
 .about__img  {
 	width: 644px;
 	height: 100%;
