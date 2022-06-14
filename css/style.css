@@ -1,12 +1,11 @@
 
-body{
-	line-height: 28px;
-		color: #2F281E;
 
-}
+
+
 .container{
-	max-width: 1440px;
+	min-width: 1440px;
 	height: 3709px;
+	margin: auto;
 	padding: 0px 120px;
 	border: 1px solid #BCD0E5;
 }
@@ -27,8 +26,15 @@ header{
 	justify-content: space-around;
 	font-family: var(--font-family-r);
 	font-size: 16px;
+	line-height: 28px;
+	
 
 }
+
+.header__link{
+	color: #2F281E;
+}
+
 .header__nav a:hover,
 .header__nav a:focus {
 	color:#FF9900;
