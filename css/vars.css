@@ -1,26 +1,30 @@
 @font-face {
 	font-family: MontserratM;
-	src: url(../assets/fonts/Montserrat-Medium.ttf);
+	src: url(../assets/fonts/AnyConv.com__Montserrat-Medium.woff);
 }
 
 @font-face {
 	font-family: MontserratR;
-	src: url(../assets/fonts/Montserrat-Regular.ttf);
+	src: url(../assets/fonts/AnyConv.com__Montserrat-Regular.woff);
 }
 
 @font-face {
 	font-family: MontserratB;
-	src: url(../assets/fonts/Montserrat-Bold.ttf);
+	src: url(../assets/fonts/AnyConv.com__Montserrat-Bold.woff);
 }
 
 @font-face {
 	font-family: MontserratSB;
-	src: url(../assets/fonts/Montserrat-SemiBold.ttf);
+	src: url(../assets/fonts/AnyConv.com__Montserrat-SemiBold.woff);
 }
 
 @font-face {
 	font-family: PoppinsB;
-	src: url(../assets/fonts/Poppins-Bold.ttf);
+	src: url(../assets/fonts/AnyConv.com__Poppins-Bold.woff);
+}
+@font-face {
+	font-family: GothamB;
+	src: url(../assets/fonts/AnyConv.com__GothamBold.woff);
 }
 
 :root{
@@ -29,6 +33,7 @@
 	--font-family-sb: MontserratSB, sans-serif;
 	--font-family-b: MontserratB, sans-serif;
 	--font-family-Pb: PoppinsB, sans-serif;
+	--font-family-Gb: GothamB, sans-serif;
 }
 
 

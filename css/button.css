@@ -1,6 +1,8 @@
 .primary-button,
-.default-button {
+.default-button,
+.header-button {
 	border-radius: 4px;
+	font-family: var(--font-family-Pb);
 	font-size: 16px;
 	line-height: 24px;
 	outline: none;
@@ -10,7 +12,9 @@
 .primary-button {
 	background-color: #FF9900;
 	color: #ffffff;
-		border: none;	
+	border: none;
+	width: 180px;
+	height: 50px;	
 }
 
 .default-button{
@@ -20,7 +24,9 @@
 }
 
 .primary-button:hover,
-.primary-button:focus{
+.primary-button:focus,
+.header-button:hover,
+.header-button:focus{
 	background-color: #fae7cb ;
 	transition: all .3s ease-in;
 	color: #FF9900;
